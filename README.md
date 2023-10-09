@@ -4,3 +4,7 @@ $ git init. Files created house.txt and README.md.
 $ git add . 
 $ git commit -m "feat: start of home renovation" 
 $ git tag "v.0.1" - assign tag.
+$ git checkout -b develop - create a branch 'develop'
+Add line '1. We are repairing the roof.' in house.txt.
+$ git add .
+$ git commit -m "feat: task to repair the roof"
