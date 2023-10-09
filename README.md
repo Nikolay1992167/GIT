@@ -14,3 +14,6 @@ $ git commit -m "feat: task to repair the walls"
 Add line '3. Yard landscaping.' in house.txt.
 $ git add .
 $ git commit -m "feat: task of landscaping the yard"
+Select commit 'db60945' in branch 'develop'
+$ git checkout -b feature/pool - create a branch 'feature/poll'
+File created pool.txt and added line '1. Install a swimming pool.'
