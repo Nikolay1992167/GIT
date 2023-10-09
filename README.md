@@ -51,3 +51,6 @@ $ git commit -m "Merge branch 'feature/pool' into branch 'develop'"
 $ git checkout -b release - create new branch 'release' 
 File created address.txt and add line 'Republic of Belarus'
 $ git commit -m "feat: add address"
+Add line 'Mozyr, Geologov street, 15' in address.txt
+$ git add .
+$ git commit -m "fix: updated address"
