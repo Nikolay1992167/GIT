@@ -24,3 +24,6 @@ $ git commit -m "feat: task to plant berry bushes"
 Add line '3. Plant strawberries.' in garden.txt
 $ git add .
 $ git commit -m "feat: task to plant strawberries"
+Add line '4. Plant raspberries.' in garden.txt
+$ git add .
+$ git commit -m "feat: task to plant raspberries"
