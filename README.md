@@ -20,3 +20,6 @@ File created pool.txt and added line '1. Install a swimming pool.'
 Add line '2. Install an umbrella.' in pool.txt.
 $ git add .
 $ git commit -m "feat: task to install an umbrella"
+Add line '3. Install sunloungers.' in pool.txt.
+$ git add .
+$ git commit -m "feat: task to install sunloungers"
