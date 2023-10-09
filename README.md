@@ -8,3 +8,6 @@ $ git checkout -b develop - create a branch 'develop'
 Add line '1. We are repairing the roof.' in house.txt.
 $ git add .
 $ git commit -m "feat: task to repair the roof"
+Add line '2. We are repairing the walls.' in house.txt.
+$ git add .
+$ git commit -m "feat: task to repair the walls"
