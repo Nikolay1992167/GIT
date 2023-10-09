@@ -18,3 +18,6 @@ $ git checkout -b feature/garden
 Create garden.txt and add line '1. Plant fruit trees.'
 $ git add .
 $ git commit -m "feat: task to plant fruit trees"
+Add line '2. Plant berry bushes.' in garden.txt
+$ git add .
+$ git commit -m "feat: task to plant berry bushes"
