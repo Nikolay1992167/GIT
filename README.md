@@ -17,3 +17,6 @@ $ git commit -m "feat: task of landscaping the yard"
 Select commit 'db60945' in branch 'develop'
 $ git checkout -b feature/pool - create a branch 'feature/poll'
 File created pool.txt and added line '1. Install a swimming pool.'
+Add line '2. Install an umbrella.' in pool.txt.
+$ git add .
+$ git commit -m "feat: task to install an umbrella"
