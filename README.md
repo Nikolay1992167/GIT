@@ -19,3 +19,16 @@ $ git checkout develop
 Add line '4. We are repairing the floor.' in house.txt.
 $ git add .
 $ git commit -m "feat: task to repair the floor"
+Select a branch 'master'
+$ git checkout master
+$ git checkout -b "hotfixes" - create new branch 'hotfixes'
+Add line 'We bought a house and will be renovating it.' in house.txt
+$ git add .
+$ git commit -m "fix: severe bug fixed for production"
+Select a branch 'develop'
+$ git checkout develop
+Merge branch 'hotfixes' into branch 'develop'
+$ git merge --no-ff hotfixes
+Go to state 'develop|MERGING' and resolve conflicts in files house.txt and README.md
+$ git add .
+$ git commit -m "Merge branch 'hotfixes' into branch 'develop'"   
