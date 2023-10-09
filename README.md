@@ -59,3 +59,6 @@ $ git checkout release
 Add line 'Postcode: 247795' in address.txt.
 $ git add .
 $ git commit -m "fix: fixed address add postcode"
+Add line 'Gomel region' in address.txt.
+$ git add .
+$ git commit -m "fix: fixed address add region'
