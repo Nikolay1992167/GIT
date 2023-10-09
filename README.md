@@ -54,3 +54,8 @@ $ git commit -m "feat: add address"
 Add line 'Mozyr, Geologov street, 15' in address.txt
 $ git add .
 $ git commit -m "fix: updated address"
+Select a branch 'release'
+$ git checkout release
+Add line 'Postcode: 247795' in address.txt.
+$ git add .
+$ git commit -m "fix: fixed address add postcode"
