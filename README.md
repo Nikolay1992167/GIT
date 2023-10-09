@@ -54,3 +54,14 @@ $ git commit -m "feat: add address"
 Add line 'Mozyr, Geologov street, 15' in address.txt
 $ git add .
 $ git commit -m "fix: updated address"
+Select a branch 'develop'
+$ git checkout develop
+Merge branch 'release' into branch 'develop'
+$ git merge --no-ff release and in vim add commit messag "Merge branch 'release' into branch 'develop'"
+Select a branch 'feature/pool'
+$ git checkout feature/pool
+Merge branch 'develop' into branch 'feature/pool'
+$ git merge --no-ff develop and in vim add commit messag "Merge branch 'develop' into branch 'feature/pool'"
+Add line '4. Install a descent into the pool.' in pool.txt.
+$ git add .
+$ git commit -m "feat: task to install a descent into the pool"
