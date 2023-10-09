@@ -48,3 +48,6 @@ $ git merge --no-ff feature/pool
 Go to state 'develop|MERGING' and resolve conflict in file README.md
 $ git add .
 $ git commit -m "Merge branch 'feature/pool' into branch 'develop'"
+$ git checkout -b release - create new branch 'release' 
+File created address.txt and add line 'Republic of Belarus'
+$ git commit -m "feat: add address"
