@@ -65,3 +65,6 @@ $ git merge --no-ff develop and in vim add commit messag "Merge branch 'develop'
 Add line '4. Install a descent into the pool.' in pool.txt.
 $ git add .
 $ git commit -m "feat: task to install a descent into the pool"
+Add line '5. Place air mattresses and circles.'
+$ git add .
+$ git commit -m "feat: task to place air mattresses and circles"
