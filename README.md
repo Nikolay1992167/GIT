@@ -14,6 +14,19 @@ $ git commit -m "feat: task to repair the walls"
 Add line '3. Yard landscaping.' in house.txt.
 $ git add .
 $ git commit -m "feat: task of landscaping the yard"
+$ git checkout -b feature/garden
+Create garden.txt and add line '1. Plant fruit trees.'
+$ git add .
+$ git commit -m "feat: task to plant fruit trees"
+Add line '2. Plant berry bushes.' in garden.txt
+$ git add .
+$ git commit -m "feat: task to plant berry bushes"
+Add line '3. Plant strawberries.' in garden.txt
+$ git add .
+$ git commit -m "feat: task to plant strawberries"
+Add line '4. Plant raspberries.' in garden.txt
+$ git add .
+$ git commit -m "feat: task to plant raspberries"
 Select a branch 'develop' 
 $ git checkout develop
 Add line '4. We are repairing the floor.' in house.txt.
@@ -62,3 +75,31 @@ $ git commit -m "fix: fixed address add postcode"
 Add line 'Gomel region' in address.txt.
 $ git add .
 $ git commit -m "fix: fixed address add region'
+Select a branch 'develop'
+$ git checkout develop
+Merge branch 'release' into branch 'develop'
+$ git merge --no-ff release and add in vim commit message "Merge branch 'release' into 'develop'"
+Select a branch 'master'
+$ git checkout master
+Merge branch 'release' into branch 'master'
+$ git merge --no-ff release and add in vim commit message "Merge branch 'release' into 'master'"
+$ git tag "v.1.0" - assign tag.
+Select a branch 'develop'
+$ git checkout develop
+Merge branches 'feature/garden' and 'feature/pool' into branch 'develop' and resolve conflict in file README.md
+$ git merge --no-ff feature/garden feature/pool
+$ git commit -m "Merge branches 'feature/garden' and 'feature/pool' into 'develop'"
+Select a branch 'release'
+$ git checkout release
+Merge branch 'develop' into branch 'release'
+$ git merge --no-commit develop - to make changes to the file README.md
+Filling out the file README.md
+$ git commit -m "Merge branch 'develop' into 'release'"
+Select a branch 'master'
+$ git checkout master
+Merge branch 'release' into branch 'master'
+$ git merge --no-ff release and add in vim commit message "Merge branch 'release' into 'master'
+Select a branch 'develop'
+$ git checkout develop
+Merge branch 'release' into branch 'develop'
+$ git merge --no-ff release and add in vim commit message "Merge branch 'release' into 'develop'"
