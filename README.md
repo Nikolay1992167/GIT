@@ -14,3 +14,8 @@ $ git commit -m "feat: task to repair the walls"
 Add line '3. Yard landscaping.' in house.txt.
 $ git add .
 $ git commit -m "feat: task of landscaping the yard"
+Select a branch 'develop' 
+$ git checkout develop
+Add line '4. We are repairing the floor.' in house.txt.
+$ git add .
+$ git commit -m "feat: task to repair the floor"
